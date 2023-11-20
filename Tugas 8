@@ -1,0 +1,20 @@
+def profil(nama, alamat, gender, umur):
+       print('Nama saya', nama)
+       print('Alamat saya di', alamat)
+       print('Gender saya', gender)
+       print('Umur saya', umur)
+
+profil('reiduan', 'depok', 'laki-laki', '19 tahun')
+
+def cek_kelulusan(nilai):
+    if nilai < 60:
+        print ('tidak lulus')
+    elif nilai >= 60:
+        print ('lulus')
+
+cek_kelulusan(58)
+
+def bilangan(angka):
+    print(angka)
+
+bilangan(989)
